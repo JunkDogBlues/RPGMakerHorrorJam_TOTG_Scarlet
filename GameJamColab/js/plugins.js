@@ -13,5 +13,6 @@ var $plugins =
 {"name":"FixedDirectionHorizontal","status":true,"description":"Only allows player to face left or right (even when moving up or down). Example uses Platformer or Brawler/Beat'em Ups.","parameters":{}},
 {"name":"SRD_ShakingText","status":true,"description":"Allows you to add Shaking Text to your Show Text events!","parameters":{"Reset Shaking per Box":"true","Default Shaking Power":"$.randomNum(0.2, 0.5)","Default Shaking Max":"1","Default Wave Power":"0.5","Default Wave Max":"4","Default Slide Power":"0.5","Default Slide Max":"4","Copy Outline":"true"}},
 {"name":"FELSKI_AUTOSAVE","status":true,"description":"v1.0.1 This plugin enables autosaving in your game. For RPG Maker MV 1.6.1.","parameters":{"Save Settings":"","Auto Save Slots":"1","Save After Map Change":"false","Save On Menu Exit":"false","Enable Auto Saving":"false","Save Texts":"","Auto Save Text":"Autosave","Save After Map Change Text":"Entering Area","Save On Menu Exit Text":"Closing Menu","Save Standard Text":"Normal Save"}},
-{"name":"PKD_VPlayer","status":true,"description":"(v.1.3)[BASIC] Extended WEBM Video Player","parameters":{}}
+{"name":"PKD_VPlayer","status":true,"description":"(v.1.3)[BASIC] Extended WEBM Video Player","parameters":{}},
+{"name":"Galv_PixelMove","status":true,"description":"(v.1.5) Gives the illusion of pixel movement for the player.","parameters":{"Diagonal Speed":"90","Diagonal Charset":"false","Tile Delay":"15"}}
 ];
